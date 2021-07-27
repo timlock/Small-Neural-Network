@@ -10,7 +10,7 @@ using namespace std;
 #ifndef SMALL_NEURAL_NETWORK_ACCESSINGDATA_H
 #define SMALL_NEURAL_NETWORK_ACCESSINGDATA_H
 
-bool firstRead();
+void firstRead();
 void readData();
 
 #endif //SMALL_NEURAL_NETWORK_ACCESSINGDATA_H
