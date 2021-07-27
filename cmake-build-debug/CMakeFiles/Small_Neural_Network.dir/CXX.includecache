@@ -7,4 +7,24 @@
 #IncludeRegexTransform: 
 
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/MainApp.cpp
+iostream
+-
+fstream
+-
+string
+-
+accessingData.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
+
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.cpp
+accessingData.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
+
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
+iostream
+-
+fstream
+-
+string
+-
 

@@ -168,6 +168,33 @@ MainApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.s
 .PHONY : MainApp.cpp.s
 
+accessingData.obj: accessingData.cpp.obj
+
+.PHONY : accessingData.obj
+
+# target to build an object file
+accessingData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj
+.PHONY : accessingData.cpp.obj
+
+accessingData.i: accessingData.cpp.i
+
+.PHONY : accessingData.i
+
+# target to preprocess a source file
+accessingData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.i
+.PHONY : accessingData.cpp.i
+
+accessingData.s: accessingData.cpp.s
+
+.PHONY : accessingData.s
+
+# target to generate assembly for a file
+accessingData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.s
+.PHONY : accessingData.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... MainApp.obj
 	@echo ... MainApp.i
 	@echo ... MainApp.s
+	@echo ... accessingData.obj
+	@echo ... accessingData.i
+	@echo ... accessingData.s
 .PHONY : help
 
 

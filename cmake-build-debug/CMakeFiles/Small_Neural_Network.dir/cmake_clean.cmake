@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.obj"
+  "CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj"
   "Small_Neural_Network.exe"
   "Small_Neural_Network.exe.manifest"
   "Small_Neural_Network.pdb"

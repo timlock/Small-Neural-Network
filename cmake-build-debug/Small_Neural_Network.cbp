@@ -85,6 +85,12 @@
 		<Unit filename="C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/MainApp.cpp">
 			<Option target="Small_Neural_Network"/>
 		</Unit>
+		<Unit filename="C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.cpp">
+			<Option target="Small_Neural_Network"/>
+		</Unit>
+		<Unit filename="C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h">
+			<Option target="Small_Neural_Network"/>
+		</Unit>
 		<Unit filename="C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

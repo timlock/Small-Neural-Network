@@ -92,12 +92,12 @@ clean: CMakeFiles/Small_Neural_Network.dir/clean
 CMakeFiles/Small_Neural_Network.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Small_Neural_Network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Small_Neural_Network"
 .PHONY : CMakeFiles/Small_Neural_Network.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Small_Neural_Network.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Small_Neural_Network.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Small_Neural_Network.dir/rule
