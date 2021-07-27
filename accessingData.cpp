@@ -9,9 +9,10 @@ extern const string mnist_img = "ressources/train-images.idx3-ubyte";
 extern const string mnist_lab = "ressources/train-labels.idx1-ubyte";
 extern const int height = 28;
 extern const int width = 28;
-extern int d[width + 1][height + 1];
+extern const int n = 60000;
 extern ifstream image;
 extern ifstream label;
+extern char list[n][width][height];
 
 bool firstRead(){
     image.open(mnist_img,ios::in | ios::binary );
@@ -30,14 +31,17 @@ bool firstRead(){
     return true;
 }
 void readData(){
+    int d[width + 1][height + 1];
     char number;
+    int index = 0;
+    for(int l = 0; l < 10; l++){
     for (int j = 1; j <= height; ++j) {
         for (int i = 1; i <= width; ++i) {
             image.read(&number, sizeof(char));
             if (number == 0) {
-                d[i][j] = 0;
+                list[index][i][j] = 0;
             } else {
-                d[i][j] = 1;
+                list[index][i][j]  = 1;
             }
         }
     }
@@ -45,12 +49,16 @@ void readData(){
     cout << "Image:" << endl;
     for (int j = 1; j <= height; ++j) {
         for (int i = 1; i <= width; ++i) {
-            cout << d[i][j];
+            cout << list[index][i][j];
         }
         cout << endl;
     }
+    label.read(&number, sizeof(char));
+    list[index][index + 1][0] = number;
 
+    cout << "Label: " << (int)(number) << endl;
 
+    }
 
 
 }
