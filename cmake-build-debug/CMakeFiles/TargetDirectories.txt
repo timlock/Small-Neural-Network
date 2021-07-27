@@ -1,0 +1,3 @@
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/Small_Neural_Network.dir
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/rebuild_cache.dir

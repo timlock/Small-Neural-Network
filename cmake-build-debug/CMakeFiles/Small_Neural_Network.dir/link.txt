@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Small_Neural_Network.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\Small_Neural_Network.dir/objects.a @CMakeFiles\Small_Neural_Network.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Small_Neural_Network.dir/objects.a -Wl,--no-whole-archive -o Small_Neural_Network.exe -Wl,--out-implib,libSmall_Neural_Network.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Small_Neural_Network.dir\linklibs.rsp
