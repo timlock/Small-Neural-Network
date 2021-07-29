@@ -17,4 +17,10 @@ fstream
 -
 string
 -
+stdint.h
+-
+stdio.h
+-
+vector
+-
 
