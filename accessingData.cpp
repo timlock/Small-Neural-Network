@@ -46,7 +46,7 @@ void readData() {
     //allocating memory
     data = new uint8_t[height * width + 1];
     uint8_t byte;
-    label.read(reinterpret_cast<char *>(&byte), 4);
+    label.read(reinterpret_cast<char *>(&byte), sizeof(byte));
     data[0] = byte;
     for (int i = 1; i < height * width + 1; i++) {
         image.read(reinterpret_cast<char *>(&byte), sizeof(byte));
