@@ -36,14 +36,13 @@ void readingMetaData() {
     if (!label.good()) cerr << "Label ile not found" << endl;
     label.read(reinterpret_cast<char *>(&bytes[4]), 4);
     label.read(reinterpret_cast<char *>(&bytes[5]), 4);
-    int lab_magic_number = magic_number = _byteswap_ulong(bytes[4]);
-    int num_labels = magic_number = _byteswap_ulong(bytes[5]);
+    int lab_magic_number =  _byteswap_ulong(bytes[4]);
+    int num_labels = _byteswap_ulong(bytes[5]);
     cout << "Filepath: " << mnist_lab << endl << "Magic number: " << lab_magic_number << endl << "Number of images: "
          << num_labels << endl;
 }
 
 void readData() {
-    //allocating memory
     data = new uint8_t[height * width + 1];
     uint8_t byte;
     label.read(reinterpret_cast<char *>(&byte), sizeof(byte));
@@ -54,7 +53,7 @@ void readData() {
     }
     cout << data[0] -'\0' << endl;
     for (int j = 1; j < height*width + 1; ++j) {
-        cout << data[j] << " ";
+        cout << data[j]  << " ";
         if(j%28==0) cout << endl;
     }
 

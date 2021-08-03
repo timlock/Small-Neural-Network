@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include "accessingData.h"
+#include "Network.h"
 using namespace std;
 
 
@@ -18,9 +19,12 @@ uint8_t  *data;
 
 
 int main(){
+
     readingMetaData();
-    for(int i = 0;i < 8; i++){
+    Network *network = new Network(height* width,2,16,10);
+    for(int i = 0;i < 6; i++){
         readData();
     }
+
     return 0;
 }

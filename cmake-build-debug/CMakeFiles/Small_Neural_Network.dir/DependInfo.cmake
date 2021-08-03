@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/MainApp.cpp" "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.obj"
+  "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.cpp" "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj"
+  "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.cpp" "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj"
   "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.cpp" "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/cmake-build-debug/CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

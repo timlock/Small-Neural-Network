@@ -93,21 +93,53 @@ CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\accessingData.cpp -o CMakeFiles\Small_Neural_Network.dir\accessingData.cpp.s
 
+CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj: CMakeFiles/Small_Neural_Network.dir/flags.make
+CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj: CMakeFiles/Small_Neural_Network.dir/includes_CXX.rsp
+CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj: ../Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Small_Neural_Network.dir\Network.cpp.obj -c C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\Network.cpp
+
+CMakeFiles/Small_Neural_Network.dir/Network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Small_Neural_Network.dir/Network.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\Network.cpp > CMakeFiles\Small_Neural_Network.dir\Network.cpp.i
+
+CMakeFiles/Small_Neural_Network.dir/Network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Small_Neural_Network.dir/Network.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\Network.cpp -o CMakeFiles\Small_Neural_Network.dir\Network.cpp.s
+
+CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj: CMakeFiles/Small_Neural_Network.dir/flags.make
+CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj: CMakeFiles/Small_Neural_Network.dir/includes_CXX.rsp
+CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj: ../Neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Small_Neural_Network.dir\Neuron.cpp.obj -c C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\Neuron.cpp
+
+CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\Neuron.cpp > CMakeFiles\Small_Neural_Network.dir\Neuron.cpp.i
+
+CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\Neuron.cpp -o CMakeFiles\Small_Neural_Network.dir\Neuron.cpp.s
+
 # Object files for target Small_Neural_Network
 Small_Neural_Network_OBJECTS = \
 "CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.obj" \
-"CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj"
+"CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj" \
+"CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj" \
+"CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj"
 
 # External object files for target Small_Neural_Network
 Small_Neural_Network_EXTERNAL_OBJECTS =
 
 Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.obj
 Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj
+Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj
+Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj
 Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/build.make
 Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/linklibs.rsp
 Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/objects1.rsp
 Small_Neural_Network.exe: CMakeFiles/Small_Neural_Network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Small_Neural_Network.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tim-l\Documents\kleinesProjekt\Small-Neural-Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Small_Neural_Network.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Small_Neural_Network.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

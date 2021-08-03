@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.cpp
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/MainApp.cpp
+iostream
+-
+string
+-
 accessingData.h
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
+Network.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.h
+
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.h
+Neuron.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.h
+random
+-
+
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.h
 
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
 iostream

@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Small_Neural_Network
-        MainApp.cpp accessingData.cpp accessingData.h
+        MainApp.cpp accessingData.cpp accessingData.h Network.cpp Network.h Neuron.cpp Neuron.h
         )

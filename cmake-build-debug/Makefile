@@ -152,6 +152,54 @@ MainApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.s
 .PHONY : MainApp.cpp.s
 
+Network.obj: Network.cpp.obj
+.PHONY : Network.obj
+
+# target to build an object file
+Network.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj
+.PHONY : Network.cpp.obj
+
+Network.i: Network.cpp.i
+.PHONY : Network.i
+
+# target to preprocess a source file
+Network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Network.cpp.i
+.PHONY : Network.cpp.i
+
+Network.s: Network.cpp.s
+.PHONY : Network.s
+
+# target to generate assembly for a file
+Network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Network.cpp.s
+.PHONY : Network.cpp.s
+
+Neuron.obj: Neuron.cpp.obj
+.PHONY : Neuron.obj
+
+# target to build an object file
+Neuron.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj
+.PHONY : Neuron.cpp.obj
+
+Neuron.i: Neuron.cpp.i
+.PHONY : Neuron.i
+
+# target to preprocess a source file
+Neuron.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.i
+.PHONY : Neuron.cpp.i
+
+Neuron.s: Neuron.cpp.s
+.PHONY : Neuron.s
+
+# target to generate assembly for a file
+Neuron.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.s
+.PHONY : Neuron.cpp.s
+
 accessingData.obj: accessingData.cpp.obj
 .PHONY : accessingData.obj
 
@@ -188,6 +236,12 @@ help:
 	@echo ... MainApp.obj
 	@echo ... MainApp.i
 	@echo ... MainApp.s
+	@echo ... Network.obj
+	@echo ... Network.i
+	@echo ... Network.s
+	@echo ... Neuron.obj
+	@echo ... Neuron.i
+	@echo ... Neuron.s
 	@echo ... accessingData.obj
 	@echo ... accessingData.i
 	@echo ... accessingData.s
