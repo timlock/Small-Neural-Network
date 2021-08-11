@@ -6,7 +6,9 @@
 #include <string>
 #include <stdint.h>
 #include <stdio.h>
+#include <cmath>
 #include <vector>
+#include "Sigmoid.h"
 
 using namespace std;
 
@@ -16,5 +18,6 @@ using namespace std;
 int convert_to_little_endian(int big_endian);
 void readingMetaData();
 void readData();
+
 
 #endif //SMALL_NEURAL_NETWORK_ACCESSINGDATA_H

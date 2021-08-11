@@ -200,6 +200,30 @@ Neuron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.s
 .PHONY : Neuron.cpp.s
 
+Sigmoid.obj: Sigmoid.cpp.obj
+.PHONY : Sigmoid.obj
+
+# target to build an object file
+Sigmoid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Sigmoid.cpp.obj
+.PHONY : Sigmoid.cpp.obj
+
+Sigmoid.i: Sigmoid.cpp.i
+.PHONY : Sigmoid.i
+
+# target to preprocess a source file
+Sigmoid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Sigmoid.cpp.i
+.PHONY : Sigmoid.cpp.i
+
+Sigmoid.s: Sigmoid.cpp.s
+.PHONY : Sigmoid.s
+
+# target to generate assembly for a file
+Sigmoid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Small_Neural_Network.dir\build.make CMakeFiles/Small_Neural_Network.dir/Sigmoid.cpp.s
+.PHONY : Sigmoid.cpp.s
+
 accessingData.obj: accessingData.cpp.obj
 .PHONY : accessingData.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... Neuron.obj
 	@echo ... Neuron.i
 	@echo ... Neuron.s
+	@echo ... Sigmoid.obj
+	@echo ... Sigmoid.i
+	@echo ... Sigmoid.s
 	@echo ... accessingData.obj
 	@echo ... accessingData.i
 	@echo ... accessingData.s

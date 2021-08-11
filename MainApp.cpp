@@ -15,16 +15,14 @@ int width;
 int number_of_pictures;
 ifstream image;
 ifstream label;
-uint8_t  *data;
+float  *data;
 
 
 int main(){
-
     readingMetaData();
-    Network *network = new Network(height* width,2,16,10);
-    for(int i = 0;i < 6; i++){
+    for(int i = 0;i < 1; i++){
         readData();
     }
-
+    Network *network = new Network(height* width,2,16,10);
     return 0;
 }

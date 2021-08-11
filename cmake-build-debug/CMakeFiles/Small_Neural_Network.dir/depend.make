@@ -5,14 +5,21 @@ CMakeFiles/Small_Neural_Network.dir/MainApp.cpp.obj: \
  ../MainApp.cpp \
  ../Network.h \
  ../Neuron.h \
+ ../Sigmoid.h \
  ../accessingData.h
 CMakeFiles/Small_Neural_Network.dir/Network.cpp.obj: \
  ../Network.cpp \
  ../Network.h \
- ../Neuron.h
+ ../Neuron.h \
+ ../Sigmoid.h \
+ ../accessingData.h
 CMakeFiles/Small_Neural_Network.dir/Neuron.cpp.obj: \
  ../Neuron.cpp \
  ../Neuron.h
+CMakeFiles/Small_Neural_Network.dir/Sigmoid.cpp.obj: \
+ ../Sigmoid.cpp \
+ ../Sigmoid.h
 CMakeFiles/Small_Neural_Network.dir/accessingData.cpp.obj: \
+ ../Sigmoid.h \
  ../accessingData.cpp \
  ../accessingData.h

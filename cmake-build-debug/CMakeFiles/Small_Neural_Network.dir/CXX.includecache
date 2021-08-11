@@ -16,13 +16,33 @@ C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
 Network.h
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.h
 
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.cpp
+Network.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.h
+
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Network.h
 Neuron.h
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.h
+accessingData.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
+iostream
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/iostream
+cmath
+-
 random
 -
 
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.cpp
+Neuron.h
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.h
+
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Neuron.h
+
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Sigmoid.h
+stdint.h
+-
+cmath
+-
 
 C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/accessingData.h
 iostream
@@ -35,6 +55,10 @@ stdint.h
 -
 stdio.h
 -
+cmath
+-
 vector
 -
+Sigmoid.h
+C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/Sigmoid.h
 

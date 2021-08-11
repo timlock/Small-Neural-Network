@@ -3,8 +3,12 @@
 //
 
 #include "Neuron.h"
+#include "accessingData.h"
+#include "iostream"
 #include <cmath>
 #include <random>
+
+using namespace std;
 #ifndef SMALL_NEURAL_NETWORK_NETWORK_H
 #define SMALL_NEURAL_NETWORK_NETWORK_H
 

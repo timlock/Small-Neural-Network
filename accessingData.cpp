@@ -9,7 +9,7 @@ extern int width;
 extern int number_of_pictures;
 extern ifstream image;
 extern ifstream label;
-extern uint8_t *data;
+extern float *data;
 
 extern const string mnist_img = "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/resources/train-images.idx3-ubyte";
 extern const string mnist_lab = "C:/Users/tim-l/Documents/kleinesProjekt/Small-Neural-Network/resources/train-labels.idx1-ubyte";
@@ -43,18 +43,19 @@ void readingMetaData() {
 }
 
 void readData() {
-    data = new uint8_t[height * width + 1];
+    data = new float[height * width + 1];//stores the data temporarily
     uint8_t byte;
     label.read(reinterpret_cast<char *>(&byte), sizeof(byte));
     data[0] = byte;
-    for (int i = 1; i < height * width + 1; i++) {
+    for (int i = 1; i < height * width + 1; i++) {//writes the data in the temporal variable
         image.read(reinterpret_cast<char *>(&byte), sizeof(byte));
-        data[i] = byte;
+        data[i] = sigmoid(byte);
     }
-    cout << data[0] -'\0' << endl;
+    cout << data[0] - '\0' << endl;
     for (int j = 1; j < height*width + 1; ++j) {
-        cout << data[j]  << " ";
+        cout << data[j] << " ";
         if(j%28==0) cout << endl;
     }
 
 }
+
