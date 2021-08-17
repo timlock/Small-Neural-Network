@@ -20,9 +20,14 @@ float  *data;
 
 int main(){
     readingMetaData();
+    Network *network = new Network(height* width,2,16,10);
     for(int i = 0;i < 1; i++){
         readData();
+        network->setup_weights();
+        //cost function
+        //backpropagation
     }
-    Network *network = new Network(height* width,2,16,10);
+
+
     return 0;
 }
