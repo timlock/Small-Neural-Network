@@ -4,7 +4,7 @@
 
 #include "Neuron.h"
 // constructor for hidden neurons
-Neuron::Neuron(float bias)
+Neuron::Neuron(float *bias)
 :bias(bias) {}
 
 

@@ -10,9 +10,9 @@ using namespace std;
 class Neuron {
 public:
     float value = 0.0f;
-    float bias = 0.0f;
+    float *bias = nullptr;
     Neuron() = default;
-    Neuron(float bias);
+    Neuron(float *bias);
 };
 
 

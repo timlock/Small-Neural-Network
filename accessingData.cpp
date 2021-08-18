@@ -51,11 +51,12 @@ void readData() {
         image.read(reinterpret_cast<char *>(&byte), sizeof(byte));
         data[i] = sigmoid(byte);
     }
-    cout << data[0] - '\0' << endl;
-    for (int j = 1; j < height*width + 1; ++j) {
-        cout << data[j] << " ";
-        if(j%28==0) cout << endl;
-    }
+    // prints out the current image and label
+//    cout << data[0] - '\0' << endl;
+//    for (int j = 1; j < height*width + 1; ++j) {
+//        cout << data[j] << " ";
+//        if(j%28==0) cout << endl;
+//    }
 
 }
 

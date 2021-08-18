@@ -17,15 +17,16 @@ class Network {
     Neuron **output_neurons = nullptr;
     Neuron **input_neurons = nullptr;
     Neuron **hidden_neurons = nullptr;
-    int pixels = 0;
+    int img_pixels = 0;
     int h_rows = 0;
     int h_neurons = 0;
     int o_neurons = 0;
-    float *weights = nullptr;
+    float *weights_and_biases = nullptr;
 
 public:
     Network(int img_pixels, int h_rows, int h_neurons, int o_neurons);
-    float setup_weights();
+    void setup_weights();
+    int calculate_value(int index, int curr_range, int pre_range);
 };
 
 
