@@ -22,6 +22,7 @@ class Network {
     int h_neurons = 0;
     int o_neurons = 0;
     float *weights_and_biases = nullptr;
+    float *gradient = nullptr;
 
 public:
     Network(int img_pixels, int h_rows, int h_neurons, int o_neurons);

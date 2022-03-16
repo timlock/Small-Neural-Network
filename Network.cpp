@@ -15,9 +15,13 @@ Network::Network(int img_pixels, int h_rows, int h_neurons, int o_neurons) : img
     int amount_of_weights = img_pixels * h_neurons + ((int) pow(h_neurons, h_rows)) + h_neurons * o_neurons;
     int amount_of_biases = h_rows * h_neurons + o_neurons;
     weights_and_biases = new float[amount_of_weights + amount_of_biases];
+    gradient = new float[amount_of_weights + amount_of_biases];
+
+    // generating random numbers
     std::mt19937 rand;
     std::uniform_real_distribution<float> distr_weights(-10.0f, 10.0f);//generates random values for the weights_and_biases
     std::uniform_real_distribution<float> distr_biases(0.0f, 30.0f);//generates random values for the biases
+
     for (int i = 0; i < img_pixels; i++) {
         input_neurons[i] = new Neuron();
     }
@@ -55,7 +59,6 @@ void Network::setup_weights() {
 /// @param index index of for the array of weights_and_biases and biases
 /// @param curr_range amount of neurons that share the row with the current neuron
 /// @param pre_range amount of neurons in the previos row
-
 
 int Network::calculate_value(int index, int curr_range, int pre_range){
     for (int i = 0; i < curr_range; i++) {
